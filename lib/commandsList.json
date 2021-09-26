@@ -1,0 +1,6 @@
+[
+  {
+    "command":"/words",
+    "description": "Список всех слов"
+  }
+]
