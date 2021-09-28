@@ -2,5 +2,10 @@
   {
     "command":"/words",
     "description": "Список всех слов"
+  },
+  {
+      "command": "/start",
+      "description":"Начать игру"
   }
+
 ]

@@ -17,3 +17,8 @@ bot.onText(/\/words/, (msg, match) => {
   const resp = Words.toString();
   bot.sendMessage(chatId, resp);
 });
+bot.onText(/\/start/, (msg, match) => {
+  const chatId = msg.chat.id;
+  const resp = "Добро пожаловать в игру 🐊";
+  bot.sendMessage(chatId, resp);
+});
